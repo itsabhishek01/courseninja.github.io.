@@ -1,0 +1,467 @@
+<html>
+
+<head>
+    <!--- Including CSS and JS and Title in Header--->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="./head-img.png">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--- Title for Website --->
+    <title>
+        Course-Ninja 📂 | Your One and only destination for free Learning
+    </title>
+</head>
+
+<body>
+    <!--- Nav Bar--->
+    <section class="bg-light Sticky-top">
+        <div class="navbar navbar-expand-lg navbar-light shadow-5-strong">
+            <a class=" navbar-brand" href="index.html">
+                <h5 style="font-size: 40px;font-weight: 100;font-variant: small-caps;">CourseNinja.com💀</h5>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="index.html">Home</a>
+                    <a class="nav-item nav-link" href="courses.html">Courses</a>
+                    <a class="nav-item nav-link" href="python.html">Python</a>
+                    <a class="nav-item nav-link" href="java.html">Java</a>
+                    <a class="nav-item nav-link" href="ds.html">Data Structures</a>
+                    <a class="nav-item nav-link active" href="cpp.html">C++</a>
+                    <a class="nav-item nav-link" href="web.html">Web Development</a>
+                    <a class="nav-item nav-link" href="dsasheet.html">DSA Sheet</a>
+                    <a class="nav-item nav-link" href="learnfree.html">Learn Free</a>
+                    <a class="nav-item nav-link" href="contact.html">Contact</a>
+                    <a class="nav-item nav-link" href="About.html">About US</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--- hr --->
+    <hr>
+    <!---Login or Sign Up--->
+    <section>
+        <h4 align="center">Login to Enjoy our Free Courses</h4>
+        <div class="text-center">
+            <!-- Button trigger modal -->
+            <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#signinmodal">Sign In</button>
+            <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#signupmodal">Sign Up</button>
+        </div>
+
+        <!-- Sign In Modal -->
+        <div class="modal fade" id="signinmodal">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title font-weight-bold" id="exampleModalLongTitle">Sign In</h5>
+                    </div>
+                    <div class="modal-body">
+                        <input type="email" placeholder="Your E-mail" class="form-control"><br>
+                        <input type="password" placeholder="Your Password" class="form-control"><br>
+                        <button class="btn btn-primary btn-lg btn-block">Sign In</button>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sign Up Modal -->
+        <div class="modal fade" id="signupmodal">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title font-weight-bold" id="exampleModalLongTitle">Sign Up</h5>
+                    </div>
+                    <div class="modal-body">
+                        <input type="text" placeholder="Username" class="form-control"><br>
+                        <input type="email" placeholder="E-mail" class="form-control"><br>
+                        <input type="password" placeholder="Password" class="form-control"><br>
+                        <input type="password" placeholder="Retype Password" class="form-control"><br>
+                        <button class="btn btn-primary btn-lg btn-block">Sign Up</button>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="container">
+        <div class="jumbotron">
+            <h1 class="display-1 font-weight-bold text-center text-white bg-warning">C++</h1>
+        </div>
+    </section>
+    <!--- hr --->
+    <hr>
+    
+    <section class="container">
+        <div class="row">
+        <div class="col-md-6">
+            <p>
+                <!---Jumbotron--->
+        <section>
+            <div class="jumbotron">
+                <h1 class="display-1 font-weight-bold text-center bg-light">Why Learn C++ Programming?</h1>
+            </div>
+        </section>
+        C++ is a powerful general-purpose programming language.
+         It can be used to develop operating systems, browsers,
+          games, and so on. C++ supports different ways of
+           programming like procedural, object-oriented,
+            functional, and so on. This makes C++ powerful as well as flexible.
+            </p>
+        </div>
+        <div class="col-md-6">
+            <p>
+                <!---Jumbotron--->
+        <section>
+            <div class="jumbotron">
+                <h1 class="display-1 font-weight-bold text-center">Take-Away Skills by this Course:</h1>
+            </div>
+        </section>
+        This course is a great introduction to both
+         fundamental programming concepts and the
+          C++ programming language. By the end, 
+          you’ll be comfortable programming in C++
+           and taking your skills off the CourseNinja 
+           platform and onto your own computer.
+            </p>
+        </div>
+    </div>
+    </section>
+    <section class="container text-center">
+        <section>
+            <div>
+                <h1 class="font-weight-bold text-center">CourseNinja courses have been taken by employees at</h1><br>
+            </div>
+        <div class="row">
+            <div class="col-md-2"><img src="./google.svg" alt=""></div>
+            <div class="col-md-2"><img src="./facebook.svg" alt=""></div>
+            <div class="col-md-2"><img src="./ibm.svg" alt=""></div>
+            <div class="col-md-2"><img src="./nasa.svg" alt=""></div>
+            <div class="col-md-2"><img src="./dropbox.svg" alt=""></div>
+            <div class="col-md-2"><img src="./amazon.png" alt="" height="55" width="55"></div>
+
+        </div>
+        </section>
+    </section>
+    <hr>
+    <section class="container">
+        <!---1--->
+                    <h1 class="font-weight-bold">C++ Syntax</h1>
+                    <p>C++ is a cross-platform language that can be used to create high-performance applications.
+                        C++ was developed by Bjarne Stroustrup, as an extension to the C language.
+                        C++ gives programmers a high level of control over system resources and memory. <br>
+                        The language was updated 4 major times in 2011, 2014, 2017, and 2020 to C++11, C++14, C++17, C++20.</p>
+                        <div class="w3-example">
+                            <br>
+                            <div class="w3-code  w3-black">
+                                #include <iostream> <br>
+                                    using namespace std; <br>
+                                     <br>
+                                    int main() { <br>
+                                      cout << "Hello World!"; <br>
+                                      return 0; <br>
+                                    } <br>
+                            </div>
+                            <br>
+                        <p>The output should read:</p>
+                            <div class="w3-code  w3-black">
+                                Hello, World!
+                            </div>
+                            <br>
+                        </div>
+                    <p>Congratulations, you have written and executed your first C++ program.</p>
+        
+        <!---2--->
+                    <h1 class="font-weight-bold">C++ Comments</h1>
+                    <p>Comments can be used to explain C++ code, and to make it more readable. <br>
+                        It can also be used to prevent execution when testing alternative code. <br>
+                        Comments can be singled-lined or multi-lined.</p>
+                        <h3>Creating a Comment</h3>
+                        <div class="w3-example">
+                            <br>
+                            <div class="w3-code  w3-black">
+                                // this is a single line comment <br>
+                                /* this is a  <br>
+                                multi line comment */ <br>
+                                #include <iostream> <br>
+                                    using namespace std; <br>
+                                     <br>
+                                    int main() { <br>
+                                      cout << "Hello World!"; <br>
+                                      return 0; <br>
+                                    } <br>
+                            </div>
+                            <br>
+                        <p>The output should read:</p>
+                            <div class="w3-code  w3-black">
+                                Hello, World!
+                            </div>
+                            <br>
+                        </div>
+                    <p>Comments can be placed at the end of a line, and C++ will ignore the rest of the line:</p><br>
+        
+        <!---3--->
+                    <h1 class="font-weight-bold">C++ Variables</h1>
+                    <p>Variables are containers for storing data values. <br>
+ <br>
+                        In C++, there are different types of variables (defined with different keywords), for example: <br>
+                         <br>
+                        ◼️int - stores integers (whole numbers), without decimals, such as 123 or -123 <br>
+                        ◼️double - stores floating point numbers, with decimals, such as 19.99 or -19.99 <br>
+                        ◼️char - stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes <br>
+                        ◼️string - stores text, such as "Hello World". String values are surrounded by double quotes <br>
+                        ◼️bool - stores values with two states: true or false <br></h3>
+                        <div class="w3-example">
+                            <br>
+                            <div class="w3-code  w3-black">
+                                #include <iostream> <br>
+                                    using namespace std; <br>
+                                     <br>
+                                    int main() { <br>
+                                        int myNum; <br>
+                                        myNum = 15; <br>
+                                        cout << myNum; <br>
+                                      return 0; <br>
+                                    } <br>
+                            </div>
+                            <br>
+                        <p>The output should read:</p>
+                            <div class="w3-code  w3-black">
+                               15
+                            </div>
+                            <br>
+                        </div>
+                    <p>Variables do not need to be declared with any particular type, and can even change type after they have been set.</p><br>
+        
+        <!---4--->
+                    <h1 class="font-weight-bold">Python Operators</h1>
+                    <p>Operators are used to perform operations on variables and values. <br>
+                        In the example below, we use the + operator to add together two values: <br>
+                        Python divides the operators in the following groups: <br><br>
+                        ◼️ Arithmetic operators <br>
+                        ◼️ Assignment operators <br>
+                        ◼️ Comparison operators <br>
+                        ◼️ Logical operators <br>
+                        ◼️ Bitwise operators <br>
+        
+                    </p>
+                        <h3>Arithmetic Operators in Python
+                        </h3>
+                        <div class="w3-example">
+                            <br>
+                            <div class="w3-code  w3-black">
+                                #include <iostream> <br>
+                                    using namespace std; <br>
+                                     <br>
+                                    int main() { <br>
+                                        int myNum; <br>
+                                        int myNum1; <br>
+                                        myNum = 15; <br>
+                                        myNum1 = 15; <br>
+                                        int myNum2 = myNum1 + myNum; <br>
+                                        cout << myNum2; <br>
+                                      return 0; <br>
+                                    } <br>
+                            </div>
+                            <br>
+                        <p>The output should read:</p>
+                            <div class="w3-code  w3-black">
+                               30 <br>
+                            </div>
+                            <br>
+                        </div>
+                    <p>Arithmetic operators are used with numeric values to perform common mathematical operations:</p><br>
+        <!---5--->
+            <h1 class="font-weight-bold">C++ if...Else</h1>
+            <p>C++ Conditions and If statements <br>
+                C++ supports the usual logical conditions from mathematics: <br>
+                ◼️ Equals: a == b <br>
+                ◼️ Not Equals: a != b <br>
+                ◼️ Less than: a < b <br>
+                ◼️ Less than or equal to: a <= b <br>
+                ◼️ Greater than: a > b <br>
+                ◼️ Greater than or equal to: a >= b</h3>
+                <div class="w3-example">
+                    <br>
+                    <div class="w3-code  w3-black">
+                        #include <iostream> <br>
+                            using namespace std; <br>
+                             <br>
+                            int main() { <br>
+                                int myNum; <br>
+                                myNum = 15; <br>
+                                if(myNum > 10){ <br>
+                                    cout<<"myNum is big than 10"<<endl; <br>
+                                } else{ <br>
+                                    cout<<"myNum is small than 10"<<endl; <br>
+                                } <br>
+                                cout << myNum2; <br>
+                              return 0; <br>
+                            } <br>
+                    </div>
+                    <br>
+                <p>The output should read:</p>
+                    <div class="w3-code  w3-black">
+                        myNum is big than 10
+                    </div>
+                    <br>
+                </div>
+        
+        <!---6--->
+            <h1 class="font-weight-bold">C++ For Loops</h1>
+            <p>A for loop is used for iterating over a sequence. <br>
+                This is less like the for keyword in other programming languages, 
+                and works more like an iterator method as found in other object-orientated programming languages. <br>
+                With the for loop we can execute a set of statements.</h3>
+                <div class="w3-example">
+                    <br>
+                    <div class="w3-code  w3-black">
+                        #include <iostream> <br>
+                            using namespace std; <br>
+                             <br>
+                            int main() { <br>
+                                int x; <br>
+                                for(x = 0 ; x < 5 ; x++){ <br>
+                                    cout << x <<endl;  <br>
+                                } <br>
+                              return 0; <br>
+                            } <br>
+                    </div>
+                    <br>
+                <p>The output should read:</p>
+                    <div class="w3-code  w3-black">
+                        0 <br>
+                        1 <br>
+                        2 <br>
+                        3 <br>
+                        4 <br>
+                        5 <br>
+                    </div>
+                    <br>
+                </div>
+        <!---7--->
+            <h1 class="font-weight-bold">C++ While Loops</h1>
+            <p>With the while loop we can execute a set of statements as long as a condition is true.</h3>
+                <div class="w3-example">
+                    <br>
+                    <div class="w3-code  w3-black">
+                        
+                        #include <iostream> <br>
+                            using namespace std; <br>
+                             <br>
+                            int main() { <br>
+                                int x = 0; <br>
+                                while( x < 5 ){ <br>
+                                    cout << x <<endl;  <br>
+                                    x++; <br>
+                                } <br>
+                              return 0; <br>
+                            } <br>
+                    </div>
+                    <br>
+                <p>The output should read:</p>
+                    <div class="w3-code  w3-black">
+                        0 <br>
+                        1 <br>
+                        2 <br>
+                        3 <br>
+                        4 <br>
+                    </div>
+                    <br>
+                </div>
+        <!---8--->
+        <h1 class="font-weight-bold">C++ While Loops</h1>
+            <p>With the while loop we can execute a set of statements as long as a condition is true.</h3>
+                <div class="w3-example">
+                    <br>
+                    <div class="w3-code  w3-black">
+                        
+                        #include <iostream> <br>
+                            using namespace std; <br>
+                             <br>
+                             void myFunction() { <br>
+                                cout << "I just got executed!\n"; <br>
+                              } <br>
+                               <br>
+                              int main() { <br>
+                                myFunction(); <br>
+                                myFunction(); <br>
+                                myFunction(); <br>
+                                return 0; <br>
+                              } <br>
+                    </div>
+                    <br>
+                <p>The output should read:</p>
+                    <div class="w3-code  w3-black">
+                        I just got executed! <br>
+                        I just got executed! <br>
+                        I just got executed! <br>
+                    </div>
+                    <br>
+                </div>
+            </section>
+    <!---Jumbotron--->
+    <hr>
+    <section>
+        <div class="jumbotron">
+            <h1 class="display-1 font-weight-bold text-center">CONTACT US</h1>
+        </div>
+    </section>
+    <!--- hr --->
+    <hr>
+    <!--- Contact Form --->
+    <section class="bg-dark py-5 px-5 text-white">
+        <div class="row text-center">
+            <div class="col-md-3">
+                <h2>Contact us</h2>
+                <h4>You Can Submit Your Queries in the Given form</h4><br>
+                <h5>Phone : <h6>+91-8219797013 , +91-7807497943</h6>
+                </h5>
+                <h5>E-Mail : <h6>abhibhardwaj635@gmail.com , abhibhardwaj636@gmail.com</h6>
+                </h5>
+                <h5>Address : <h6>Hamirpur , Himachal Pradesh , 177042</h6>
+                </h5>
+            </div>
+            <div class="col-md-6">
+                <h2>Location</h2>
+                <div class="embed-responsive embed-responsive-100x400px">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27159.33413040424!2d76.50102113591713!3d31.690843270825084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3904d44c8c5639a5%3A0x2315ba2666cfba94!2sHamirpur%2C%20Himachal%20Pradesh!5e0!3m2!1sen!2sin!4v1654927344245!5m2!1sen!2sin"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <form action="">
+                    <h2>Query Form</h2><br>
+                    <label for="">Name</label><br>
+                    <input type="text" name="" id="" class="form-control" placeholder="Your Name"><br>
+                    <label for="">E-Mail</label><br>
+                    <input type="email" name="" id="" class="form-control" placeholder="Your E-Mail"><br>
+                    <textarea class="from-control" rows="6" cols="42"
+                    placeholder="Write your Query Here !!!"></textarea><br><br>
+                    <button class="form-control btn btn-danger btn-block">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <div class="copyright bg-warning text-center py-3">Copyright @Course Ninja 2022</div>
+</body>
+
+</html>

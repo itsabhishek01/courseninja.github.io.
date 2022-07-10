@@ -1,0 +1,442 @@
+<html>
+
+<head>
+    <!--- Including CSS and JS and Title in Header--->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="./head-img.png">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--- Title for Website --->
+    <title>
+        Course-Ninja 📂 | Your One and only destination for free Learning
+    </title>
+</head>
+
+<body>
+    <!--- Nav Bar--->
+    <section class="bg-light Sticky-top">
+        <div class="navbar navbar-expand-lg navbar-light shadow-5-strong">
+            <a class=" navbar-brand" href="index.html">
+                <h5 style="font-size: 40px;font-weight: 100;font-variant: small-caps;">CourseNinja.com💀</h5>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="index.html">Home</a>
+                    <a class="nav-item nav-link" href="courses.html">Courses</a>
+                    <a class="nav-item nav-link active" href="python.html">Python</a>
+                    <a class="nav-item nav-link" href="java.html">Java</a>
+                    <a class="nav-item nav-link" href="ds.html">Data Structures</a>
+                    <a class="nav-item nav-link" href="cpp.html">C++</a>
+                    <a class="nav-item nav-link" href="web.html">Web Development</a>
+                    <a class="nav-item nav-link" href="dsasheet.html">DSA Sheet</a>
+                    <a class="nav-item nav-link" href="contact.html">Contact</a>
+                    <a class="nav-item nav-link" href="About.html">About US</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--- hr --->
+    <hr>
+    <!---Login or Sign Up--->
+    <section>
+        <h4 align="center">Login to Enjoy our Free Courses</h4>
+        <div class="text-center">
+            <!-- Button trigger modal -->
+            <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#signinmodal">Sign In</button>
+            <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#signupmodal">Sign Up</button>
+        </div>
+
+        <!-- Sign In Modal -->
+        <div class="modal fade" id="signinmodal">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title font-weight-bold" id="exampleModalLongTitle">Sign In</h5>
+                    </div>
+                    <div class="modal-body">
+                        <input type="email" placeholder="Your E-mail" class="form-control"><br>
+                        <input type="password" placeholder="Your Password" class="form-control"><br>
+                        <button class="btn btn-primary btn-lg btn-block">Sign In</button>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sign Up Modal -->
+        <div class="modal fade" id="signupmodal">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title font-weight-bold" id="exampleModalLongTitle">Sign Up</h5>
+                    </div>
+                    <div class="modal-body">
+                        <input type="text" placeholder="Username" class="form-control"><br>
+                        <input type="email" placeholder="E-mail" class="form-control"><br>
+                        <input type="password" placeholder="Password" class="form-control"><br>
+                        <input type="password" placeholder="Retype Password" class="form-control"><br>
+                        <button class="btn btn-primary btn-lg btn-block">Sign Up</button>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="container">
+        <div class="jumbotron">
+            <h1 class="display-1 font-weight-bold text-center text-white bg-warning">PYTHON PROGRAMMING</h1>
+        </div>
+    </section>
+    <!--- hr --->
+    <hr>
+    
+    <section class="container">
+        <div class="row">
+        <div class="col-md-6">
+            <p>
+                <!---Jumbotron--->
+        <section>
+            <div class="jumbotron">
+                <h1 class="display-1 font-weight-bold text-center bg-light">Why Learn Python?</h1>
+            </div>
+        </section>
+                Python is a general-purpose, versatile and popular
+                 programming language. It’s great as a first language
+                  because it is concise and easy to read, and it is also 
+                  a good language to have in any programmer’s stack as 
+                  it can be used for everything from web development to
+                   software development and scientific applications.
+            </p>
+        </div>
+        <div class="col-md-6">
+            <p>
+                <!---Jumbotron--->
+        <section>
+            <div class="jumbotron">
+                <h1 class="display-1 font-weight-bold text-center">Take-Away Skills by this Course:</h1>
+            </div>
+        </section>
+        This course is a great introduction to both
+         fundamental programming concepts and the
+          Python programming language. By the end, 
+          you’ll be comfortable programming in Python
+           and taking your skills off the CourseNinja 
+           platform and onto your own computer.
+            </p>
+        </div>
+    </div>
+    </section>
+    <section class="container text-center">
+        <section>
+            <div>
+                <h1 class="font-weight-bold text-center">CourseNinja courses have been taken by employees at</h1><br>
+            </div>
+        <div class="row">
+            <div class="col-md-2"><img src="./google.svg" alt=""></div>
+            <div class="col-md-2"><img src="./facebook.svg" alt=""></div>
+            <div class="col-md-2"><img src="./ibm.svg" alt=""></div>
+            <div class="col-md-2"><img src="./nasa.svg" alt=""></div>
+            <div class="col-md-2"><img src="./dropbox.svg" alt=""></div>
+            <div class="col-md-2"><img src="./amazon.png" alt="" height="55" width="55"></div>
+
+        </div>
+        </section>
+    </section>
+    <hr>
+    <section class="container">
+<!---1--->
+            <h1 class="font-weight-bold">Python Syntax</h1>
+            <p>Python is an interpreted programming language, this means that as a developer you write Python
+                (.py) files in a text editor and then put those files into the python interpreter to be executed.
+                The way to run a python file is like this on the command line:</p>
+                <div class="w3-example">
+                    <br>
+                    <div class="w3-code  w3-black">
+                    C:\Users\<em>Your Name</em>&gt;python helloworld.py
+                    </div>
+                    <br>
+                <p>The output should read:</p>
+                    <div class="w3-code  w3-black">
+                        Hello, World!
+                    </div>
+                    <br>
+                </div>
+            <p>Congratulations, you have written and executed your first Python program.</p>
+
+<!---2--->
+            <h1 class="font-weight-bold">Python Comments</h1>
+            <p>Comments can be used to explain Python code. <br>
+
+                Comments can be used to make the code more readable. <br>
+                
+                Comments can be used to prevent execution when testing code.</p>
+                <h3>Creating a Comment</h3>
+                <div class="w3-example">
+                    <br>
+                    <div class="w3-code  w3-black">
+                        #This is a comment<br>
+                        print("Hello, World!")
+                    </div>
+                    <br>
+                <p>The output should read:</p>
+                    <div class="w3-code  w3-black">
+                        Hello, World!
+                    </div>
+                    <br>
+                </div>
+            <p>Comments can be placed at the end of a line, and Python will ignore the rest of the line:</p><br>
+
+<!---3--->
+            <h1 class="font-weight-bold">Python Variables</h1>
+            <p>Python has no command for declaring a variable. <br>
+                A variable is created the moment you first assign a value to it.</p>
+                <h3>Creating Variables</h3>
+                <div class="w3-example">
+                    <br>
+                    <div class="w3-code  w3-black">
+                        x = 4          #x is of type int<br>
+                        x = "Sally"    #x is now of type str<br>
+                        print(x)
+                    </div>
+                    <br>
+                <p>The output should read:</p>
+                    <div class="w3-code  w3-black">
+                       Sally
+                    </div>
+                    <br>
+                </div>
+            <p>Variables do not need to be declared with any particular type, and can even change type after they have been set.</p><br>
+
+<!---3--->
+            <h1 class="font-weight-bold">Python Operators</h1>
+            <p>Operators are used to perform operations on variables and values. <br>
+                In the example below, we use the + operator to add together two values: <br>
+                Python divides the operators in the following groups: <br><br>
+                ◼️ Arithmetic operators <br>
+                ◼️ Assignment operators <br>
+                ◼️ Comparison operators <br>
+                ◼️ Logical operators <br>
+                ◼️ Identity operators <br>
+                ◼️ Membership operators <br>
+                ◼️ Bitwise operators <br>
+
+            </p>
+                <h3>Arithmetic Operators in Python
+                </h3>
+                <div class="w3-example">
+                    <br>
+                    <div class="w3-code  w3-black">
+                        x = 3 <br>
+                        y = 2 <br>
+                        a = x+y <br>
+                        b = x-y <br>
+                        print(a) <br>
+                        print(b) <br>
+                    </div>
+                    <br>
+                <p>The output should read:</p>
+                    <div class="w3-code  w3-black">
+                       5 <br>
+                       1
+                    </div>
+                    <br>
+                </div>
+            <p>Arithmetic operators are used with numeric values to perform common mathematical operations:</p><br>
+<!---4--->
+    <h1 class="font-weight-bold">Python Lists</h1>
+    <p>Lists are used to store multiple items in a single variable. <br>
+        Lists are one of 4 built-in data types in Python used to store collections of data, the other 3 are Tuple, Set, and Dictionary, all with different qualities and usage. <br>
+        Lists are created using square brackets: [ ]</h3>
+        <div class="w3-example">
+            <br>
+            <div class="w3-code  w3-black">
+                thislist = ["apple", "banana", "cherry"] <br>
+                print(thislist)
+            </div>
+            <br>
+        <p>The output should read:</p>
+            <div class="w3-code  w3-black">
+                ['apple', 'banana', 'cherry']
+            </div>
+            <br>
+        </div>
+
+<!---5--->
+    <h1 class="font-weight-bold">Python if...Else</h1>
+    <p>Python Conditions and If statements <br>
+        Python supports the usual logical conditions from mathematics: <br>
+        ◼️ Equals: a == b <br>
+        ◼️ Not Equals: a != b <br>
+        ◼️ Less than: a < b <br>
+        ◼️ Less than or equal to: a <= b <br>
+        ◼️ Greater than: a > b <br>
+        ◼️ Greater than or equal to: a >= b</h3>
+        <div class="w3-example">
+            <br>
+            <div class="w3-code  w3-black">
+                a = 200 <br>
+                b = 33 <br>
+                if b > a: <br>
+                    print("b is greater than a") <br>
+                elif a == b: <br>
+                    print("a and b are equal") <br>
+                else: <br>
+                    print("a is greater than b") <br>
+            </div>
+            <br>
+        <p>The output should read:</p>
+            <div class="w3-code  w3-black">
+                a is greater than b
+            </div>
+            <br>
+        </div>
+
+<!---6--->
+    <h1 class="font-weight-bold">Python For Loops</h1>
+    <p>A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string). <br>
+        This is less like the for keyword in other programming languages, and works more like an iterator method as found in other object-orientated programming languages. <br>        With the for loop we can execute a set of statements, once for each item in a list, tuple, set etc.</h3>
+        <div class="w3-example">
+            <br>
+            <div class="w3-code  w3-black">
+                for x in range(0, 6): <br>
+                print(x) <br>
+                fruits = ["apple", "banana", "cherry"] <br>
+                for y in fruits: <br>
+                print(y)
+            </div>
+            <br>
+        <p>The output should read:</p>
+            <div class="w3-code  w3-black">
+                0 <br>
+                1 <br>
+                2 <br>
+                3 <br>
+                4 <br>
+                5 <br>
+                apple <br>
+                banana <br>
+                cherry <br>
+            </div>
+            <br>
+        </div>
+<!---7--->
+    <h1 class="font-weight-bold">Python While Loops</h1>
+    <p>With the while loop we can execute a set of statements as long as a condition is true.</h3>
+        <div class="w3-example">
+            <br>
+            <div class="w3-code  w3-black">
+                i = 1 <br>
+                while i < 6: <br>
+                print(i) <br>
+                i += 1 <br>
+            </div>
+            <br>
+        <p>The output should read:</p>
+            <div class="w3-code  w3-black">
+                1 <br>
+                2 <br>
+                3 <br>
+                4 <br>
+                5 <br>
+            </div>
+            <br>
+        </div>
+<!---8--->
+<h1 class="font-weight-bold">Python Functions</h1>
+<p>A function is a block of code which only runs when it is called. <br>
+    You can pass data, known as parameters, into a function. <br>
+    A function can return data as a result.</h3>
+    <div class="w3-example">
+        <br>
+        <div class="w3-code  w3-black">
+            def my_function(fname): <br>
+                print(fname + " Refsnes") <br>
+
+            my_function("Emil") <br>
+            my_function("Tobias") <br>
+            my_function("Linus") <br>
+        </div>
+        <br>
+    <p>The output should read:</p>
+        <div class="w3-code  w3-black">
+            Emil Refsnes <br>
+            Tobias Refsnes <br>
+            Linus Refsnes <br>
+        </div>
+        <br>
+        <p>The following example has a function with one argument (fname).
+            When the function is called, we pass along a first name,
+            which is used inside the function to print the full name.</p>
+    </div>
+    </section>
+    <hr>
+    <div class="text-center">
+        <!-- Button Explore modal -->
+        <button class="btn btn-primary btn-lg"><a href="./courses.html" class="text-white ">EXPLORE OUR MORE FREE COURSES</a></button>
+    </div>
+    <!---Jumbotron--->
+    <hr>
+    <section>
+        <div class="jumbotron">
+            <h1 class="display-1 font-weight-bold text-center">CONTACT US</h1>
+        </div>
+    </section>
+    <!--- hr --->
+    <hr>
+    <!--- Contact Form --->
+    <section class="bg-dark py-5 px-5 text-white">
+        <div class="row text-center">
+            <div class="col-md-3">
+                <h2>Contact us</h2>
+                <h4>You Can Submit Your Queries in the Given form</h4><br>
+                <h5>Phone : <h6>+91-8219797013 , +91-7807497943</h6>
+                </h5>
+                <h5>E-Mail : <h6>abhibhardwaj635@gmail.com , abhibhardwaj636@gmail.com</h6>
+                </h5>
+                <h5>Address : <h6>Hamirpur , Himachal Pradesh , 177042</h6>
+                </h5>
+            </div>
+            <div class="col-md-6">
+                <h2>Location</h2>
+                <div class="embed-responsive embed-responsive-100x400px">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27159.33413040424!2d76.50102113591713!3d31.690843270825084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3904d44c8c5639a5%3A0x2315ba2666cfba94!2sHamirpur%2C%20Himachal%20Pradesh!5e0!3m2!1sen!2sin!4v1654927344245!5m2!1sen!2sin"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <form action="">
+                    <h2>Query Form</h2><br>
+                    <label for="">Name</label><br>
+                    <input type="text" name="" id="" class="form-control" placeholder="Your Name"><br>
+                    <label for="">E-Mail</label><br>
+                    <input type="email" name="" id="" class="form-control" placeholder="Your E-Mail"><br>
+                    <textarea class="from-control" rows="6" cols="42"
+                    placeholder="Write your Query Here !!!"></textarea><br><br>
+                    <button class="form-control btn btn-danger btn-block">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <div class="copyright bg-warning text-center py-3">Copyright @Course Ninja 2022</div>
+</body>
+
+</html>
