@@ -1,1 +1,1 @@
-# itsabhishek01.github.io
+# CourseNinja.me
